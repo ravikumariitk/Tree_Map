@@ -1,3 +1,8 @@
+.logo {
+    height: 70px;
+    margin: 10px;
+  }
+
 #tree{
     /* border: 1px solid red; */
     text-align: center;
@@ -22,7 +27,7 @@ header{
  
 #top-header{
          
-    text-align: center;
+    text-align: left;
     height: 60px;
 }
  
@@ -125,7 +130,7 @@ header{
 }#v_main{
   
     height: 60vh;
-    background-image: url("/img/v_main.jpeg");
+    background-image: url("/img/veggarden1.jpg");
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
