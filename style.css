@@ -91,13 +91,34 @@ header{
         margin: auto;
         
     }
+    
 }
-
-
 #main{
     border: 1px solid;
     height: 100vh;
     background-image: url("/img/main.jpg");
+    z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#categories{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    /* border: 1px solid red; */
+}
+.imgCate{
+   width: 25vw; 
+   height:30vh;
+}
+@media only screen and (max-width: 735px) {
+    .imgCate{
+        width: 79.8vw; 
+        height:50vh;
+     }
+}
+#footer{
+    background-color: rgb(168, 198, 168);
+    text-align: center;
+    padding: 10px;
 }
