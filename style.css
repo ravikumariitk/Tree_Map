@@ -107,7 +107,7 @@ header{
 #m_main{
   
     height: 60vh;
-    background-image: url("/img/m_main.jpeg");
+    background-image: url("/img/medical.png");
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@ header{
 #fr_main{
   
     height: 60vh;
-    background-image: url("/img/fr_main.jpeg");
+    background-image: url("/img/fruit1.jpg");
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,7 +123,7 @@ header{
 #fl_main{
   
     height: 60vh;
-    background-image: url("/img/fl_main.jpeg");
+    background-image: url("/img/flower.jpg");
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
