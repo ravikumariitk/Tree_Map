@@ -147,11 +147,27 @@ header{
 @media only screen and (max-width: 735px) {
     .imgCate{
         width: 79.8vw; 
-        height:50vh;
+        height:40vh;
      }
 }
 #footer{
     background-color: rgb(168, 198, 168);
     text-align: center;
     padding: 10px;
+}
+#name{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    font-size:5vw; 
+    padding: 20vh; 
+    color: white;
+}
+@media only screen and (max-width: 735px) {
+    #name{
+        padding-top:20vh;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        text-align: center;
+        font-size:10vw; 
+        color: white;
+    }
 }
