@@ -99,7 +99,37 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#m_main{
+  
+    height: 60vh;
+    background-image: url("/img/m_main.jpeg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fr_main{
+  
+    height: 60vh;
+    background-image: url("/img/fr_main.jpeg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fl_main{
+  
+    height: 60vh;
+    background-image: url("/img/fl_main.jpeg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#v_main{
+  
+    height: 60vh;
+    background-image: url("/img/v_main.jpeg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #categories{
     margin-left: 6vw;
     margin-right: 6vw;
