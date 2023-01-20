@@ -8,14 +8,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
-  
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
     <link rel="shortcut icon" href=".\img\logo.ico" type="image/x-icon" /> 
 
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   
     <link rel="stylesheet" type="text/css" href="/style.css">
-  
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   
@@ -68,15 +68,13 @@
     </div>
   </div>
   <br><br>
-
-
   <div id="categories">
     <h2 style="font-family: 'Figtree', sans-serif;">Categories</h2>
     <hr>
     <div class="card mb-3" style="max-width: 80vw;">
       <div class="row g-0">
         <div class="col-md-4"> <!-- 333.2 x 267.11 -->
-         <img src="https://drive.google.com/uc?export=view&id=158Nrmu5aqZ_LVNIzYpDbcMuT9W4Nn5zK" alt="">
+         <img src="https://earth.google.com/earth/d/1mH3JeI3Hb3AFFhwr_6bA7q5maQ6rQpxU?usp=share_link" alt="">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -144,10 +142,32 @@
 
     </div>
   </footer>
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Wf4-hFPPkFPp7cvaetZJzXOhIZ9ITCg&ehbc=2E312F" width="640" height="480"></iframe>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  function initialize() {
+      var mapOptions = {
+        center: new google.maps.LatLng(26.5106865,80.2344964), //Set your latitude, longitude
+        zoom: 19,
+        mapTypeId: google.maps.MapTypeId.SATELLITE,
+        scrollwheel: false
+      }
 
+      var map = new google.maps.Map(document.getElementById('google-map'), mapOptions); // get the div by id
+
+      var ctaLayer = new google.maps.KmlLayer({
+        url: 'https://earth.google.com/earth/d/1RedVbMlnAu0Bq7HnXG6_VLW_JG7eusF_?usp=share_link' // Set the KML file
+      });
+
+      // attach the layer to the map
+      ctaLayer.setMap(map);
+  }
+
+  // load the map
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 <script>
   let typed = new Typed(".auto-input", {
     strings: ["Medical Trees", "Fruits Trees", "Flowers Plants", "Veggies"],
