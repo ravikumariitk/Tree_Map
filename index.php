@@ -72,66 +72,93 @@
   <div id="categories">
     <h2 style="font-family: 'Figtree', sans-serif;">Categories</h2>
     <hr>
+
+    <!-- CATEGORY 1: MEDICAL TREES -->
     <div class="card mb-3" style="max-width: 80vw;">
       <div class="row g-0">
         <div class="col-md-4"> <!-- 333.2 x 267.11 -->
-         <img class="imgCate"  src="img/medical.png" alt="">
+         <img class="imgCate"  src="/img/medical.png" alt="">
         </div>
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Medical Trees</h5>
             <p class="card-text">Medical trees are graphical representations of medical information, often used to visualize and understand complex medical conditions and their treatment options. They can include details such as diagnosis, symptoms, prognosis, and potential interventions.</p>
             <p class="card-text"><small class="text-muted"><button type="button"
-             class="btn btn-outline-success"> <a href="Medical.html" style="text-decoration: none; color: black;" >View</a></button></small></p>
+             class="btn btn-outline-success"> <a href="/Medical.html" style="text-decoration: none; color: black;" >View</a></button></small></p>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- CATEGORY 2: FRUIT TREES -->
     <div class="card mb-3" style="max-width: 80vw;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img class="imgCate" src="img/fruits.png" alt="...">
+          <img class="imgCate" src="/img/fruits.png" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Fruit Trees</h5>
             <p class="card-text">Fruit trees are plants that bear edible fruit, typically consisting of a sweet, juicy flesh surrounding a seed or seeds. They can include both deciduous and evergreen trees, and can be grown for their fruit, for ornamental purposes, or for both.</p>
             <p class="card-text"><small class="text-muted"><button type="button"
-              class="btn btn-outline-success"> <a href="fruits.html" style="text-decoration: none; color: black;" >View</a></button></small></p>
+              class="btn btn-outline-success"> <a href="/fruits.html" style="text-decoration: none; color: black;" >View</a></button></small></p>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- CATEGORY 3: FLOWERING TREES -->
     <div class="card mb-3" style="max-width: 80vw;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img class="imgCate" src="img/flower.png" alt="...">
+          <img class="imgCate" src="/img/flower.png" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Flower Plants</h5>
             <p class="card-text">Flower trees are trees that are cultivated for their attractive and often fragrant flowers. They can be used for ornamental purposes in gardens, parks, and other landscaped areas, and can also be grown for their beauty, fragrance, or other characteristics.</p>
             <p class="card-text"><small class="text-muted"><button type="button"
-              class="btn btn-outline-success"> <a href="flower.html" style="text-decoration: none; color: black;" >View</a></button></small></p>
+              class="btn btn-outline-success"> <a href="/flower.html" style="text-decoration: none; color: black;" >View</a></button></small></p>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- CATEGORY 4: DECORATIVE TREES -->
     <div class="card mb-3" style="max-width: 80vw;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img class="imgCate" src="img/veggie.png" alt="...">
+          <img class="imgCate" src="/img/veggie.png" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Vegitable Trees</h5>
             <p class="card-text">Vegetable trees are trees that produce edible vegetables or vegetables that are used as ingredients in cooking. Some examples of vegetables that can be grown on trees include avocados, olives, and figs.</p>
             <p class="card-text"><small class="text-muted"><button type="button"
-              class="btn btn-outline-success"> <a href="Veggis.html" style="text-decoration: none; color: black;" >View</a></button></small></p>
+              class="btn btn-outline-success"> <a href="/Veggis.html" style="text-decoration: none; color: black;" >View</a></button></small></p>
           </div>
         </div>
       </div>
     </div>
+
+
+    <!-- CATEGORY 5: WILD TREES -->
+    <div class="card mb-3" style="max-width: 80vw;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img class="imgCate" src="/img/wild.png" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"> Wild Trees</h5>
+            <p class="card-text"> Wild Trees are the trees that are not hortically grown. It means any living species of woody perennial plant, including its root system, which has reached or can reach a height of at least 4.5 meters</p>
+            <p class="card-text"><small class="text-muted"><button type="button"
+              class="btn btn-outline-success"> <a href="/wild.html" style="text-decoration: none; color: black;" >View</a></button></small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
   </div><br>
   <footer id="footer">
     <div class="container">

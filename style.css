@@ -135,6 +135,15 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#w_main{
+  
+    height: 60vh;
+    background-image: url("img/wild.jpeg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #categories{
     margin-left: 6vw;
     margin-right: 6vw;
