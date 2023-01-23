@@ -13,7 +13,6 @@
 #search{
     width: 50vw;
     margin: auto;
-    
 }
 #auto{
     text-align: center;
@@ -99,7 +98,7 @@ header{
 #main{
     border: 1px solid;
     height: 100vh;
-    background-image: url("/img/main.jpg");
+    background-image: url("img/main.jpg");
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,7 +106,7 @@ header{
 #m_main{
   
     height: 60vh;
-    background-image: url("/img/medical.png");
+    background-image: url("img/medical.png");
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +114,7 @@ header{
 #fr_main{
   
     height: 60vh;
-    background-image: url("/img/fruit1.jpg");
+    background-image: url("img/fruit1.jpg");
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,18 +122,27 @@ header{
 #fl_main{
   
     height: 60vh;
-    background-image: url("/img/flower.jpg");
+    background-image: url("img/flower.jpg");
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
 }#v_main{
   
     height: 60vh;
-    background-image: url("/img/veggarden1.jpg");
+    background-image: url("img/veggarden1.jpg");
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
 }
+#w_main{
+  
+    height: 60vh;
+    background-image: url("img/wild.jpeg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #categories{
     margin-left: 6vw;
     margin-right: 6vw;
